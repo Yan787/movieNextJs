@@ -7,7 +7,7 @@ import { IMovieEditInput } from "@/screens/Admin/Movie/MovieEditInterface"
 
 export const MovieService = {
     async getAll(searchTerm?: string) {
-        return axios.get<IMovie[]>(getMoviesUrl(''), {
+        return axiosClassic.get<IMovie[]>(getMoviesUrl(''), {
             params: searchTerm ? {searchTerm} : {}
         })
     },
