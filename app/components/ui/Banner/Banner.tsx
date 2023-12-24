@@ -13,7 +13,9 @@ const Banner: FC<IBanner> = ({ image, Detail }) => {
 		<div className={styles.banner}>
 			<Image
 				src={image}
-				layout="fill"
+				// layout="fill"
+				width={100}
+				height={100}
 				alt=""
 				unoptimized
 				className="image-like-bg object-top"
