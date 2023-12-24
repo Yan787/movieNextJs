@@ -16,7 +16,7 @@ const nextConfig = {
 			},
 			{
 				source: '/uploads/:path*',
-				destination: 'http://localhost:4200/uploads/:path*',
+				destination: 'http://localhost:3000/uploads/:path*',
 			},
 		]
 	},
